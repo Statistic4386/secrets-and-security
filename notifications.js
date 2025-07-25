@@ -1,3 +1,3 @@
-// In notifications.js
-const SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"; // This fake key matches the Slack Webhook pattern.
-console.log("Using Slack Webhook:", SLACK_WEBHOOK_URL);
+// In config.js
+const GITHUB_TOKEN = "ghp_aBcDeFgHiJkLmNoPqRsTuVwXyZ1234567890"; // This fake key matches the GitHub PAT (classic) pattern.
+console.log("Using GitHub Token");
