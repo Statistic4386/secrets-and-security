@@ -1,1 +1,22 @@
-* @Statistic4386
+# This is a comment.
+#
+# Example 1: A default owner for all files in the repository.
+# This is a good fallback to ensure nothing is missed.
+* @global-maintainer
+
+# Example 2: Assign ownership of all JavaScript files to the front-end team.
+# This uses a team instead of an individual.
+*.js    @my-org/frontend-team
+
+# Example 3: The DBA team owns all database migration files.
+db/migrations/   @my-org/database-admins
+
+# Example 4: The security team must review any changes to GitHub Actions workflows.
+.github/workflows/   @my-org/security-team
+
+# Example 5: A specific user owns the documentation.
+/docs/   @docs-writer-username
+
+# Example 6: A specific, critical configuration file is owned by two people.
+# Both are notified, but only one needs to approve.
+/config/production.json    @lead-dev-1 @lead-dev-2
