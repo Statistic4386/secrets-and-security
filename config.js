@@ -1,2 +1,2 @@
-const API_KEY = AIzaSyCAbCdEfGhIjKlMnOpQrStUvWxYz123456789
+const API_KEY = 
 console.log("Using API Key:", API_KEY);
