@@ -1,0 +1,9 @@
+{
+  "comment": "DANGER: This file contains a hardcoded secret and should never be committed.",
+  "notificationService": {
+    "slackWebhookUrl": "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
+  },
+  "database": {
+    "connectionString": "user:password@tcp(127.0.0.1:3306)/dbname"
+  }
+}
