@@ -1,0 +1,9 @@
+{
+  "comment": "GOOD PRACTICE: This file uses placeholders. The actual secrets are loaded from the Codespace environment at runtime.",
+  "notificationService": {
+    "slackWebhookUrl": "SLACK_WEBHOOK_URL"
+  },
+  "database": {
+    "connectionString": "DB_CONNECTION_STRING_PLACEHOLDER"
+  }
+}
